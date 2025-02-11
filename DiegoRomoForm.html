@@ -4,33 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 <body>
     <h1>Formulario de Contacto</h1>
-    <form id="formulario">
-        <label for="fname">Nombre</label><br>
-        <input type="text" id="Name" name="Name" value="" required>
-        </span><br>
-
-        <label for="lname">Correo electronico</label><br>
-        <input type="email" id="Email" name="Email" value="" required>
-        <br>
-
-        <label for="message">Mensaje</label><br>
-        <textarea style="resize: both;" wrap="hard" id="Messagge" name="Messagge"></textarea><br>
-
-        <input type="submit" value="Submit">
-    </form> 
+    <form>
+        <div class="form-floating mb-3">
+            <label for="text" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" style="background-color: rgb(223, 222, 222);">
+          </div>
+          
 
 
-    <footer>
-        <table>
-            <tr>
-            <td><a href="index.html#Perfil">Perfil |</a></td> 
-            <td><a href="index.html#Experiencia">Experiencia |</a></td>
-            <td><a href="index.html#Educacion">Educación |</a></td>
-            <td><a href="index.html#Contacto">Contacto</a></td>
-        </ul>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" style="background-color: rgb(223, 222, 222);" >
+            <label for="floatingInput">Email address</label>
+        </div>
+  
+        <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="background-color: rgb(223, 222, 222);"></textarea>
+            <label for="floatingTextarea2">Comments</label>
+        </div>
+        
+        <button type="submit" class="btn btn-primary" style="background-color:rgb(220, 63, 92);">Submit</button>
+      </form>
+
+      <footer>
+        <nav class="nav">
+            <a class="nav-link" href="index.html#Perfil">Perfil</a>
+            <a class="nav-link" href="index.html#Experiencia">Experiencia</a>
+            <a class="nav-link" href="index.html#Educacion">Educacion</a>
+            <a class="nav-link" href="index.html#Contacto">Contacto</a>
+          </nav>
+    
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
