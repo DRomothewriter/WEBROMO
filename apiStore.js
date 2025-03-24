@@ -128,7 +128,7 @@ const showProducts = async () => {
         <div class="card-body">
             <div style="text-align: center;">
                 <label for="laberCantidad" class="form-label">Cantidad:</label>
-                <input type="number" id="cantidad" placeholder="0" style="width: 100px;" class="mx-auto mb-3">g
+                <input type="number" id="cantidad" placeholder="0" style="width: 100px;" class="mx-auto mb-3">kg
             </div>
             <button class="btn btn-primary mx-auto d-block addItemCart" >Agregar al carrito</button>
         </div>
